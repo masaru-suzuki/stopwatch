@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="timer-display">
+      <div class="running">
+        <div id="timer">00:00.000</div>
+      </div>
+      <div class="button-container">
+        <!-- <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button> -->
+        <!-- button要素だと、cssの調整がやりにくいから -->
+        <div class="btn" id="start">Start</div>
+        <div class="btn" id="stop">Stop</div>
+        <div class="btn" id="reset">Reset</div>
+      </div>
+    </div>
+
+    <script src="js/my.js"></script>
+  </div>
+</body>
+</html>
